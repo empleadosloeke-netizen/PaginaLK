@@ -267,9 +267,46 @@ textarea {
   color: var(--text);
 }
 
+.pricing {
+  display: grid;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.pricing article {
+  background: rgba(7, 10, 20, 0.6);
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  padding: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.pricing article strong {
+  font-size: 1.6rem;
+}
+
+.pricing .highlight {
+  border: 1px solid rgba(108, 99, 255, 0.6);
+  box-shadow: 0 18px 40px rgba(108, 99, 255, 0.25);
+}
+
 .summary {
   display: grid;
   gap: 16px;
+}
+
+.summary-item,
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-total {
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+  font-size: 1.1rem;
 }
 
 .footer {
