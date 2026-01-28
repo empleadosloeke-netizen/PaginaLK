@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loekemeyer | Utensilios de cocina mayoristas</title>
     <title>PaginaLK | Soluciones modernas</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,6 +17,7 @@
     <div class="background-glow"></div>
     <header class="hero">
       <nav class="nav">
+        <div class="logo">Loekemeyer</div>
         <div class="logo">PaginaLK</div>
         <div class="tabs" role="tablist" aria-label="Secciones">
           <button class="tab is-active" role="tab" aria-selected="true" data-tab="nosotros">
@@ -24,6 +26,11 @@
           <button class="tab" role="tab" aria-selected="false" data-tab="contacto">
             Contacto
           </button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="mayorista">
+            Acceso Mayorista
+          </button>
+        </div>
+        <button class="cta">Solicitar acceso</button>
           <button class="tab" role="tab" aria-selected="false" data-tab="carrito">
             Carrito
           </button>
@@ -33,6 +40,15 @@
 
       <div class="hero-content">
         <div>
+          <p class="tag">75 años de tradición • Utensilios de cocina</p>
+          <h1>Tu aliado mayorista en utensilios de cocina desde 1949.</h1>
+          <p class="subtitle">
+            Somos una firma con trayectoria que acompaña a distribuidores y comercios con catálogo
+            sólido, reposición rápida y atención personalizada.
+          </p>
+          <div class="hero-actions">
+            <button class="primary">Acceso mayorista</button>
+            <button class="ghost">Explorar catálogo</button>
           <p class="tag">Estrategia digital • Diseño • eCommerce</p>
           <h1>Impulsamos tu empresa con una presencia moderna y memorable.</h1>
           <p class="subtitle">
@@ -47,6 +63,20 @@
         <div class="hero-card" aria-live="polite">
           <div class="card-header">
             <span class="status-dot"></span>
+            <p>Disponibilidad inmediata</p>
+          </div>
+          <div class="card-body">
+            <div class="stat">
+              <span>SKU activos</span>
+              <strong>+1.200</strong>
+            </div>
+            <div class="stat">
+              <span>Reposición</span>
+              <strong>48 hs</strong>
+            </div>
+            <div class="stat">
+              <span>Clientes mayoristas</span>
+              <strong>750+</strong>
             <p>Resumen en tiempo real</p>
           </div>
           <div class="card-body">
@@ -73,6 +103,25 @@
           <div>
             <h2>Nosotros</h2>
             <p>
+              Loekemeyer nació en Buenos Aires hace 75 años. Desde entonces fabricamos y distribuimos
+              utensilios que combinan diseño, durabilidad y precio competitivo para el canal mayorista.
+            </p>
+            <ul class="checklist">
+              <li>Catálogo curado para gastronomía y retail especializado.</li>
+              <li>Stock permanente con logística eficiente.</li>
+              <li>Asesoramiento comercial para distribuidores.</li>
+            </ul>
+          </div>
+          <div class="panel-card">
+            <h3>Calidad que se transmite</h3>
+            <p>
+              Trabajamos con materiales certificados y procesos controlados para garantizar rendimiento
+              y confianza en cada pieza.
+            </p>
+            <div class="pill-group">
+              <span>Acero inox</span>
+              <span>Silicona premium</span>
+              <span>Antiadherente</span>
               Somos un estudio creativo enfocado en experiencias digitales. Combinamos estrategia,
               diseño y desarrollo para que tu marca se destaque desde el primer clic.
             </p>
@@ -102,12 +151,19 @@
           <div>
             <h2>Contacto</h2>
             <p>
+              Nuestro equipo mayorista responde en menos de 24 hs. Compartinos tu consulta y te
+              enviamos condiciones comerciales y catálogo actualizado.
               Conversemos sobre tu próximo lanzamiento. Responde el formulario y en menos de 24 hs
               tendrás una propuesta personalizada.
             </p>
             <div class="contact-info">
               <div>
                 <h4>Mail</h4>
+                <p>mayoristas@loekemeyer.com</p>
+              </div>
+              <div>
+                <h4>Teléfono</h4>
+                <p>+54 11 4580-9090</p>
                 <p>hola@paginalk.com</p>
               </div>
               <div>
@@ -122,6 +178,8 @@
           </div>
           <form class="panel-card form" aria-label="Formulario de contacto">
             <label>
+              Nombre y empresa
+              <input type="text" placeholder="Tu nombre y empresa" />
               Nombre
               <input type="text" placeholder="Tu nombre" />
             </label>
@@ -131,6 +189,9 @@
             </label>
             <label>
               Mensaje
+              <textarea rows="4" placeholder="Contanos qué tipo de negocio tenés"></textarea>
+            </label>
+            <button type="button" class="primary">Enviar consulta</button>
               <textarea rows="4" placeholder="Cuéntanos sobre tu proyecto"></textarea>
             </label>
             <button type="button" class="primary">Enviar</button>
@@ -138,6 +199,19 @@
         </div>
       </section>
 
+      <section id="mayorista" class="tab-panel" role="tabpanel" hidden>
+        <div class="panel-grid">
+          <div>
+            <h2>Acceso Mayorista</h2>
+            <p>
+              Este canal es exclusivo para distribuidores y comercios. No contamos con venta minorista
+              "Directo a Casa".
+            </p>
+            <div class="notice">
+              <h3>Portal en integración</h3>
+              <p>
+                El equipo está finalizando el módulo mayorista. Mientras tanto podés solicitar acceso
+                y recibir el catálogo actualizado por mail.
       <section id="carrito" class="tab-panel" role="tabpanel" hidden>
         <div class="panel-grid">
           <div>
@@ -155,6 +229,13 @@
             </div>
           </div>
           <div class="panel-card summary">
+            <h3>Requisitos de alta</h3>
+            <ul class="checklist">
+              <li>CUIT y datos fiscales.</li>
+              <li>Datos del comercio o distribuidora.</li>
+              <li>Zona de cobertura o canales de venta.</li>
+            </ul>
+            <button class="ghost">Solicitar catálogo</button>
             <h3>Próximo paso</h3>
             <p>
               Aquí aparecerá el resumen de compra y los métodos de pago. Podemos dejar lista la
@@ -205,6 +286,11 @@
     </main>
 
     <footer class="footer">
+      <p>© 2024 Loekemeyer. Todos los derechos reservados.</p>
+      <div class="social">
+        <span>LinkedIn</span>
+        <span>Instagram</span>
+        <span>Catálogo</span>
       <p>© 2024 PaginaLK. Todos los derechos reservados.</p>
       <div class="social">
         <span>LinkedIn</span>
