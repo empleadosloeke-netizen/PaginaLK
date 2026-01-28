@@ -204,6 +204,14 @@ h1 {
   padding: 24px;
 }
 
+.notice {
+  background: rgba(108, 99, 255, 0.1);
+  border: 1px dashed rgba(108, 99, 255, 0.4);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
 .checklist {
   list-style: none;
   margin-top: 20px;
