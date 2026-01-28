@@ -3,80 +3,302 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Loekemeyer | Acceso mayorista</title>
+    <title>Loekemeyer | Utensilios de cocina mayoristas</title>
+    <title>PaginaLK | Soluciones modernas</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <main>
-      <section class="hero">
-        <video
-          class="hero-video"
-          autoplay
-          muted
-          loop
-          playsinline
-          poster="https://images.pexels.com/photos/3184192/pexels-photo-3184192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-        >
-          <source
-            src="https://cdn.coverr.co/videos/coverr-people-cooking-in-the-kitchen-3596/1080p.mp4"
-            type="video/mp4"
-          />
-        </video>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <div class="brand">
-            <div class="brand-mark">
-              <span>LC</span>
+    <div class="background-glow"></div>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">Loekemeyer</div>
+        <div class="logo">PaginaLK</div>
+        <div class="tabs" role="tablist" aria-label="Secciones">
+          <button class="tab is-active" role="tab" aria-selected="true" data-tab="nosotros">
+            Nosotros
+          </button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="contacto">
+            Contacto
+          </button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="mayorista">
+            Acceso Mayorista
+          </button>
+        </div>
+        <button class="cta">Solicitar acceso</button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="carrito">
+            Carrito
+          </button>
+        </div>
+        <button class="cta">Agendar demo</button>
+      </nav>
+
+      <div class="hero-content">
+        <div>
+          <p class="tag">75 años de tradición • Utensilios de cocina</p>
+          <h1>Tu aliado mayorista en utensilios de cocina desde 1949.</h1>
+          <p class="subtitle">
+            Somos una firma con trayectoria que acompaña a distribuidores y comercios con catálogo
+            sólido, reposición rápida y atención personalizada.
+          </p>
+          <div class="hero-actions">
+            <button class="primary">Acceso mayorista</button>
+            <button class="ghost">Explorar catálogo</button>
+          <p class="tag">Estrategia digital • Diseño • eCommerce</p>
+          <h1>Impulsamos tu empresa con una presencia moderna y memorable.</h1>
+          <p class="subtitle">
+            Una landing page elegante con solapas dinámicas para contar tu historia, conectar con
+            clientes y convertir visitas en ventas.
+          </p>
+          <div class="hero-actions">
+            <button class="primary">Empezar ahora</button>
+            <button class="ghost">Ver portfolio</button>
+          </div>
+        </div>
+        <div class="hero-card" aria-live="polite">
+          <div class="card-header">
+            <span class="status-dot"></span>
+            <p>Disponibilidad inmediata</p>
+          </div>
+          <div class="card-body">
+            <div class="stat">
+              <span>SKU activos</span>
+              <strong>+1.200</strong>
             </div>
-            <div>
-              <h1>LOEKEMEYER</h1>
-              <p>Acceso mayorista</p>
+            <div class="stat">
+              <span>Reposición</span>
+              <strong>48 hs</strong>
+            </div>
+            <div class="stat">
+              <span>Clientes mayoristas</span>
+              <strong>750+</strong>
+            <p>Resumen en tiempo real</p>
+          </div>
+          <div class="card-body">
+            <div class="stat">
+              <span>Conversiones</span>
+              <strong>+28%</strong>
+            </div>
+            <div class="stat">
+              <span>Carritos activos</span>
+              <strong>1.240</strong>
+            </div>
+            <div class="stat">
+              <span>Consultas</span>
+              <strong>95+</strong>
             </div>
           </div>
-          <button class="hero-button" type="button" onclick="location.href='#acceso-mayorista'">
-            Acceso mayorista
-          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="tabs-content">
+      <section id="nosotros" class="tab-panel is-active" role="tabpanel">
+        <div class="panel-grid">
+          <div>
+            <h2>Nosotros</h2>
+            <p>
+              Loekemeyer nació en Buenos Aires hace 75 años. Desde entonces fabricamos y distribuimos
+              utensilios que combinan diseño, durabilidad y precio competitivo para el canal mayorista.
+            </p>
+            <ul class="checklist">
+              <li>Catálogo curado para gastronomía y retail especializado.</li>
+              <li>Stock permanente con logística eficiente.</li>
+              <li>Asesoramiento comercial para distribuidores.</li>
+            </ul>
+          </div>
+          <div class="panel-card">
+            <h3>Calidad que se transmite</h3>
+            <p>
+              Trabajamos con materiales certificados y procesos controlados para garantizar rendimiento
+              y confianza en cada pieza.
+            </p>
+            <div class="pill-group">
+              <span>Acero inox</span>
+              <span>Silicona premium</span>
+              <span>Antiadherente</span>
+              Somos un estudio creativo enfocado en experiencias digitales. Combinamos estrategia,
+              diseño y desarrollo para que tu marca se destaque desde el primer clic.
+            </p>
+            <ul class="checklist">
+              <li>Investigación de audiencia y narrativa de marca.</li>
+              <li>Interfaces modernas con foco en conversión.</li>
+              <li>Implementación rápida y optimizada.</li>
+            </ul>
+          </div>
+          <div class="panel-card">
+            <h3>Equipo multidisciplinario</h3>
+            <p>
+              Designers, marketers y developers alineados para construir una presencia sólida y
+              escalable.
+            </p>
+            <div class="pill-group">
+              <span>UX/UI</span>
+              <span>Marketing</span>
+              <span>Data</span>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section id="acceso-mayorista" class="status">
-        <h2>Página en desarrollo</h2>
-        <p>
-          Estamos preparando el portal mayorista. En breve vas a poder ingresar con tu cuenta para
-          acceder a precios y pedidos.
-        </p>
+      <section id="contacto" class="tab-panel" role="tabpanel" hidden>
+        <div class="panel-grid">
+          <div>
+            <h2>Contacto</h2>
+            <p>
+              Nuestro equipo mayorista responde en menos de 24 hs. Compartinos tu consulta y te
+              enviamos condiciones comerciales y catálogo actualizado.
+              Conversemos sobre tu próximo lanzamiento. Responde el formulario y en menos de 24 hs
+              tendrás una propuesta personalizada.
+            </p>
+            <div class="contact-info">
+              <div>
+                <h4>Mail</h4>
+                <p>mayoristas@loekemeyer.com</p>
+              </div>
+              <div>
+                <h4>Teléfono</h4>
+                <p>+54 11 4580-9090</p>
+                <p>hola@paginalk.com</p>
+              </div>
+              <div>
+                <h4>Teléfono</h4>
+                <p>+54 11 5555-5555</p>
+              </div>
+              <div>
+                <h4>Ubicación</h4>
+                <p>Buenos Aires, AR</p>
+              </div>
+            </div>
+          </div>
+          <form class="panel-card form" aria-label="Formulario de contacto">
+            <label>
+              Nombre y empresa
+              <input type="text" placeholder="Tu nombre y empresa" />
+              Nombre
+              <input type="text" placeholder="Tu nombre" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="tu@email.com" />
+            </label>
+            <label>
+              Mensaje
+              <textarea rows="4" placeholder="Contanos qué tipo de negocio tenés"></textarea>
+            </label>
+            <button type="button" class="primary">Enviar consulta</button>
+              <textarea rows="4" placeholder="Cuéntanos sobre tu proyecto"></textarea>
+            </label>
+            <button type="button" class="primary">Enviar</button>
+          </form>
+        </div>
       </section>
 
-      <section id="historia" class="history">
-        <div class="history-card">
-          <h2>Nuestra Historia</h2>
-          <p>
-            Loekemeyer nació en 1950 como un taller familiar de utensilios de cocina. Desde entonces
-            crecemos junto a distribuidores y comercios, manteniendo la calidad y el servicio como
-            pilares de nuestra identidad.
-          </p>
+      <section id="mayorista" class="tab-panel" role="tabpanel" hidden>
+        <div class="panel-grid">
+          <div>
+            <h2>Acceso Mayorista</h2>
+            <p>
+              Este canal es exclusivo para distribuidores y comercios. No contamos con venta minorista
+              "Directo a Casa".
+            </p>
+            <div class="notice">
+              <h3>Portal en integración</h3>
+              <p>
+                El equipo está finalizando el módulo mayorista. Mientras tanto podés solicitar acceso
+                y recibir el catálogo actualizado por mail.
+      <section id="carrito" class="tab-panel" role="tabpanel" hidden>
+        <div class="panel-grid">
+          <div>
+            <h2>Carrito</h2>
+            <p>
+              Estamos preparando este módulo para integrarlo con el desarrollo en curso. Mientras
+              tanto, seguimos trabajando en la experiencia general de la landing.
+            </p>
+            <div class="notice">
+              <h3>Módulo en desarrollo</h3>
+              <p>
+                El equipo está construyendo el flujo completo del carrito. Esta sección se conectará
+                cuando el desarrollo esté listo.
+              </p>
+            </div>
+          </div>
+          <div class="panel-card summary">
+            <h3>Requisitos de alta</h3>
+            <ul class="checklist">
+              <li>CUIT y datos fiscales.</li>
+              <li>Datos del comercio o distribuidora.</li>
+              <li>Zona de cobertura o canales de venta.</li>
+            </ul>
+            <button class="ghost">Solicitar catálogo</button>
+            <h3>Próximo paso</h3>
+            <p>
+              Aquí aparecerá el resumen de compra y los métodos de pago. Podemos dejar lista la
+              estructura visual cuando nos compartas el módulo final.
+            </p>
+            <button class="ghost">Solicitar avance</button>
+              Visualiza servicios listos para contratar. Selecciona un paquete y comienza hoy mismo.
+            </p>
+            <div class="pricing">
+              <article>
+                <h3>Essentials</h3>
+                <p>Landing base + analítica</p>
+                <strong>$499</strong>
+                <button class="ghost">Agregar</button>
+              </article>
+              <article class="highlight">
+                <h3>Growth</h3>
+                <p>UX completo + automatizaciones</p>
+                <strong>$899</strong>
+                <button class="primary">Agregar</button>
+              </article>
+              <article>
+                <h3>Enterprise</h3>
+                <p>Equipo dedicado + soporte 24/7</p>
+                <strong>$1.499</strong>
+                <button class="ghost">Agregar</button>
+              </article>
+            </div>
+          </div>
+          <div class="panel-card summary">
+            <h3>Tu carrito</h3>
+            <div class="summary-item">
+              <span>Growth</span>
+              <span>$899</span>
+            </div>
+            <div class="summary-item">
+              <span>Onboarding premium</span>
+              <span>$120</span>
+            </div>
+            <div class="summary-total">
+              <span>Total</span>
+              <strong>$1.019</strong>
+            </div>
+            <button class="primary">Finalizar compra</button>
+          </div>
         </div>
       </section>
     </main>
 
-    <a
-      class="whatsapp"
-      href="https://wa.me/5491131181021"
-      target="_blank"
-      rel="noreferrer"
-      aria-label="Contactar por WhatsApp"
-    >
-      <svg viewBox="0 0 32 32" aria-hidden="true">
-        <path
-          d="M16.02 4C9.39 4 4 9.3 4 15.84c0 2.65.88 5.12 2.4 7.12L4 28l5.24-1.7a12.1 12.1 0 0 0 6.78 2.06c6.63 0 12.02-5.3 12.02-11.84C28.04 9.3 22.65 4 16.02 4Zm0 21.7c-2.14 0-4.14-.63-5.81-1.8l-.42-.28-3.1 1 1-3.03-.28-.44a10 10 0 0 1-1.52-5.32c0-5.5 4.6-9.96 10.13-9.96s10.13 4.46 10.13 9.96-4.6 9.87-10.13 9.87Zm5.9-7.45c-.33-.16-1.94-.95-2.24-1.06-.3-.12-.52-.16-.75.16-.23.32-.86 1.06-1.05 1.28-.2.21-.4.24-.73.08-.33-.16-1.39-.51-2.66-1.64-.99-.88-1.66-1.97-1.85-2.3-.2-.32-.02-.5.15-.66.16-.16.33-.4.5-.6.16-.2.21-.32.33-.53.11-.21.06-.4-.02-.56-.09-.16-.75-1.8-1.03-2.48-.28-.67-.56-.58-.75-.58-.2 0-.43-.02-.66-.02-.23 0-.6.08-.92.4-.33.32-1.2 1.17-1.2 2.85 0 1.68 1.23 3.3 1.4 3.53.16.23 2.42 3.74 5.87 5.1.82.33 1.46.53 1.96.68.82.26 1.57.23 2.16.14.66-.1 1.94-.8 2.21-1.57.27-.77.27-1.43.19-1.57-.08-.14-.3-.22-.63-.38Z"
-        />
-      </svg>
-    </a>
+    <footer class="footer">
+      <p>© 2024 Loekemeyer. Todos los derechos reservados.</p>
+      <div class="social">
+        <span>LinkedIn</span>
+        <span>Instagram</span>
+        <span>Catálogo</span>
+      <p>© 2024 PaginaLK. Todos los derechos reservados.</p>
+      <div class="social">
+        <span>LinkedIn</span>
+        <span>Behance</span>
+        <span>Instagram</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
