@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaginaLK | Soluciones modernas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background-glow"></div>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">PaginaLK</div>
+        <div class="tabs" role="tablist" aria-label="Secciones">
+          <button class="tab is-active" role="tab" aria-selected="true" data-tab="nosotros">
+            Nosotros
+          </button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="contacto">
+            Contacto
+          </button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="carrito">
+            Carrito
+          </button>
+        </div>
+        <button class="cta">Agendar demo</button>
+      </nav>
+
+      <div class="hero-content">
+        <div>
+          <p class="tag">Estrategia digital • Diseño • eCommerce</p>
+          <h1>Impulsamos tu empresa con una presencia moderna y memorable.</h1>
+          <p class="subtitle">
+            Una landing page elegante con solapas dinámicas para contar tu historia, conectar con
+            clientes y convertir visitas en ventas.
+          </p>
+          <div class="hero-actions">
+            <button class="primary">Empezar ahora</button>
+            <button class="ghost">Ver portfolio</button>
+          </div>
+        </div>
+        <div class="hero-card" aria-live="polite">
+          <div class="card-header">
+            <span class="status-dot"></span>
+            <p>Resumen en tiempo real</p>
+          </div>
+          <div class="card-body">
+            <div class="stat">
+              <span>Conversiones</span>
+              <strong>+28%</strong>
+            </div>
+            <div class="stat">
+              <span>Carritos activos</span>
+              <strong>1.240</strong>
+            </div>
+            <div class="stat">
+              <span>Consultas</span>
+              <strong>95+</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="tabs-content">
+      <section id="nosotros" class="tab-panel is-active" role="tabpanel">
+        <div class="panel-grid">
+          <div>
+            <h2>Nosotros</h2>
+            <p>
+              Somos un estudio creativo enfocado en experiencias digitales. Combinamos estrategia,
+              diseño y desarrollo para que tu marca se destaque desde el primer clic.
+            </p>
+            <ul class="checklist">
+              <li>Investigación de audiencia y narrativa de marca.</li>
+              <li>Interfaces modernas con foco en conversión.</li>
+              <li>Implementación rápida y optimizada.</li>
+            </ul>
+          </div>
+          <div class="panel-card">
+            <h3>Equipo multidisciplinario</h3>
+            <p>
+              Designers, marketers y developers alineados para construir una presencia sólida y
+              escalable.
+            </p>
+            <div class="pill-group">
+              <span>UX/UI</span>
+              <span>Marketing</span>
+              <span>Data</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="tab-panel" role="tabpanel" hidden>
+        <div class="panel-grid">
+          <div>
+            <h2>Contacto</h2>
+            <p>
+              Conversemos sobre tu próximo lanzamiento. Responde el formulario y en menos de 24 hs
+              tendrás una propuesta personalizada.
+            </p>
+            <div class="contact-info">
+              <div>
+                <h4>Mail</h4>
+                <p>hola@paginalk.com</p>
+              </div>
+              <div>
+                <h4>Teléfono</h4>
+                <p>+54 11 5555-5555</p>
+              </div>
+              <div>
+                <h4>Ubicación</h4>
+                <p>Buenos Aires, AR</p>
+              </div>
+            </div>
+          </div>
+          <form class="panel-card form" aria-label="Formulario de contacto">
+            <label>
+              Nombre
+              <input type="text" placeholder="Tu nombre" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="tu@email.com" />
+            </label>
+            <label>
+              Mensaje
+              <textarea rows="4" placeholder="Cuéntanos sobre tu proyecto"></textarea>
+            </label>
+            <button type="button" class="primary">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="carrito" class="tab-panel" role="tabpanel" hidden>
+        <div class="panel-grid">
+          <div>
+            <h2>Carrito</h2>
+            <p>
+              Visualiza servicios listos para contratar. Selecciona un paquete y comienza hoy mismo.
+            </p>
+            <div class="pricing">
+              <article>
+                <h3>Essentials</h3>
+                <p>Landing base + analítica</p>
+                <strong>$499</strong>
+                <button class="ghost">Agregar</button>
+              </article>
+              <article class="highlight">
+                <h3>Growth</h3>
+                <p>UX completo + automatizaciones</p>
+                <strong>$899</strong>
+                <button class="primary">Agregar</button>
+              </article>
+              <article>
+                <h3>Enterprise</h3>
+                <p>Equipo dedicado + soporte 24/7</p>
+                <strong>$1.499</strong>
+                <button class="ghost">Agregar</button>
+              </article>
+            </div>
+          </div>
+          <div class="panel-card summary">
+            <h3>Tu carrito</h3>
+            <div class="summary-item">
+              <span>Growth</span>
+              <span>$899</span>
+            </div>
+            <div class="summary-item">
+              <span>Onboarding premium</span>
+              <span>$120</span>
+            </div>
+            <div class="summary-total">
+              <span>Total</span>
+              <strong>$1.019</strong>
+            </div>
+            <button class="primary">Finalizar compra</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2024 PaginaLK. Todos los derechos reservados.</p>
+      <div class="social">
+        <span>LinkedIn</span>
+        <span>Behance</span>
+        <span>Instagram</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
